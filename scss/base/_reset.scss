@@ -1,8 +1,6 @@
-*,
-*::after,
-*::before {
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -21,9 +19,11 @@ a {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #2b272f;
+  text-align: center;
+  line-height: 1;
 }
 
 main {
